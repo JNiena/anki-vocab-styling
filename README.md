@@ -1,7 +1,13 @@
-### Styling for Anki vocabulary decks.
+## Styling for [Anki](https://apps.ankiweb.net/) vocabulary decks.
 
-#### Front of Card:
+### Front of Card:
 
-#### Front of Card (Example Sentence):
+![](front.png)
 
-#### Back of Card:
+### Front of Card (With Sentence):
+
+![](front-sentence.png)
+
+### Back of Card:
+
+![](back.png)
