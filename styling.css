@@ -1,0 +1,61 @@
+.card {
+    font-family: "Hiragino Maru Gothic ProN";
+    text-align: center;
+    margin: 5% 20% 5% 20%;
+}
+
+#word {
+    font-size: 50px;
+    color: #cdd6f4;
+    background: #181825;
+
+    border-bottom: 5px solid #f9e2af;
+    border-radius: 10px;
+}
+
+#reading {
+    font-size: 20px;
+    color: #bac2de;
+    background: #181825;
+
+    margin-bottom: -15px;
+    border-radius: 10px;
+}
+
+#definition {
+    font-size: 15px;
+    color: #cdd6f4;
+    background: #181825;
+
+    border-left: 5px solid #f9e2af;
+    border-radius: 5px;
+}
+
+#sentence {
+    font-size: 25px;
+    color: #bac2de;
+    opacity: 0%;
+
+    text-align: left;
+    display: inline-block
+}
+
+#sentence:hover {
+    opacity: 100%;
+}
+
+#frequency {
+    font-size: 15px;
+    color: #bac2de;
+
+    text-align: right;
+    text-decoration: underline;
+}
+
+#audio {
+    display: none;
+}
+
+b {
+    color: #f9e2af;
+}
