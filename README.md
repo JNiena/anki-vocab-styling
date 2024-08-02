@@ -6,7 +6,7 @@
 
 ### Front of Card (With Sentence):
 
-![](front-sentence.png)
+![](front_sentence.png)
 
 ### Back of Card:
 
