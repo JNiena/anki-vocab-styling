@@ -1,25 +1,30 @@
 .card {
     font-family: "Hiragino Maru Gothic ProN";
     text-align: center;
-    margin: 5% 20% 5% 20%;
+
+    margin: 5% 30% 5% 30%;
 }
 
 #word {
-    font-size: 50px;
+    font-size: 60px;
     color: #cdd6f4;
     background: #181825;
 
-    border-bottom: 5px solid #f9e2af;
+    border-bottom: 5px solid #89b4fa;
     border-radius: 10px;
+
+    box-shadow: 0 4px 4px -4px #89b4fa;
 }
 
 #reading {
-    font-size: 20px;
+    font-size: 25px;
     color: #bac2de;
     background: #181825;
 
-    margin-bottom: -15px;
+    margin: 0 0 -20px 0;
+
     border-radius: 10px;
+    padding: 5px 0 0 0;
 }
 
 #definition {
@@ -27,8 +32,12 @@
     color: #cdd6f4;
     background: #181825;
 
-    border-left: 5px solid #f9e2af;
+    padding: 10px;
+
+    border-left: 5px solid #89b4fa;
     border-radius: 5px;
+
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
 #sentence {
@@ -36,8 +45,10 @@
     color: #bac2de;
     opacity: 0%;
 
+    padding: 0 0 10px 0;
+
     text-align: left;
-    display: inline-block
+    display: inline-block;
 }
 
 #sentence:hover {
@@ -49,7 +60,6 @@
     color: #bac2de;
 
     text-align: right;
-    text-decoration: underline;
 }
 
 #audio {
@@ -57,5 +67,5 @@
 }
 
 b {
-    color: #f9e2af;
+    color: #89b4fa;
 }
