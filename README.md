@@ -2,8 +2,8 @@
 
 ### Front of Card:
 
-![](front.png)
+![](front_example.png)
 
 ### Back of Card:
 
-![](back.png)
+![](back_example.png)
