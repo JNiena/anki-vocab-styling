@@ -7,3 +7,11 @@
 ### Back of Card:
 
 ![](back_example.png)
+
+### Fields Required:
+- Word
+- Reading
+- Frequency
+- Sentence
+- Definition
+- Audio
