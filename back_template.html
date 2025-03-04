@@ -1,6 +1,19 @@
-<div id="frequency">{{Frequency}}</div>
-<div id="reading">{{Reading}}</div>
-<div id="word">{{Word}}</div>
-<div id="sentence" style="opacity: 100%;">{{Sentence}}</div>
-<div id="audio">{{Audio}}</div>
-<div id="definition">{{Definition}}</div>
+<div id="main">
+ <div id="frequency">{{Frequency}}</div>
+ <div id="term">
+  <div id="reading">{{Reading}}</div>
+  <div id="word">{{Word}}</div>
+ </div>
+ <div id="sentence">{{Sentence}}</div>
+ <div id="definition">{{Definition}}</div>
+ <div id="audio">{{Audio}}</div>
+</div>
+
+<script>
+ var sentenceDiv = document.getElementById('sentence');
+ if (sentenceDiv && !sentenceDiv.innerHTML.trim()) {
+  var br = document.createElement('br');
+  sentenceDiv.parentNode.insertBefore(br, sentenceDiv.nextSibling);
+  sentenceDiv.style.display = 'none';
+ }
+</script>
