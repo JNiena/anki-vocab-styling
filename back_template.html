@@ -1,19 +1,22 @@
 <div id="main">
- <div id="frequency">{{Frequency}}</div>
- <div id="term">
-  <div id="reading">{{Reading}}</div>
-  <div id="word">{{Word}}</div>
- </div>
- <div id="sentence">{{Sentence}}</div>
- <div id="definition">{{Definition}}</div>
- <div id="audio">{{Audio}}</div>
+	<div id="frequency">{{Frequency}}</div>
+	<div id="term">
+		<div id="reading">{{Reading}}</div>
+		<div id="word">{{Word}}</div>
+	</div>
+	<div id="sentence">{{Sentence}}</div>
+	<div id="definition">{{Definition}}</div>
+	<div id="audio">{{Audio}}</div>
 </div>
 
 <script>
- var sentenceDiv = document.getElementById('sentence');
- if (sentenceDiv && !sentenceDiv.innerHTML.trim()) {
-  var br = document.createElement('br');
-  sentenceDiv.parentNode.insertBefore(br, sentenceDiv.nextSibling);
-  sentenceDiv.style.display = 'none';
- }
+	function addBreak(divName) {
+		var div = document.getElementById(divName);
+		if (div && !div.innerHTML.trim()) {
+			var br = document.createElement("br");
+			div.parentNode.insertBefore(br, div.nextSibling);
+			div.style.display = "none";
+		}
+	}
+	addBreak("sentence");
 </script>
